@@ -227,9 +227,11 @@ public class ReturnActivity extends AppCompatActivity {
 
         dialogViewHolder = new DialogViewHolder(view1);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(ReturnActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(ReturnActivity.this,R.style.ReturnListAlertDialogTheme);
         dialogViewHolder.titleTextview.setText("Return : " + returnItems.get(position).getModelString());
-        dialogViewHolder.amtTxtTextview.setText("Amount : ");
+        dialogViewHolder.titleTextview.setTextColor(Color.parseColor("#f5f5f5"));
+        dialogViewHolder.amtTxtTextview.setText("Amount: ");
+        dialogViewHolder.amtTxtTextview.setTextColor(Color.parseColor("#f5f5f5"));
         dialogViewHolder.amtRtnEditText.setText(returnItems.get(position).getRetrunAmountString());
         builder.setPositiveButton("SAVE", new DialogInterface.OnClickListener() {
             @Override
