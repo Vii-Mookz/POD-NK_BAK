@@ -93,5 +93,7 @@
     <color name="MediumBlue">#0000cd</color>
     <color name="DarkOliveGreen">#556B2F</color>
     <color name="CadetBlue2">#785f9ea0</color>
-
+    <color name="saddlebrown">#8B4513</color>
+    <color name="peru">#CD853F</color>
+    <color name="Black_L">#78000000</color>
 </resources>
