@@ -18,7 +18,7 @@
     <color name="SteelBlue">#4682b4</color>
     <color name="DarkSlateBlue">#483D8B</color>
     <color name="MediumTurquoise">#48D1CC</color>
-    <color name="CadetBlue">#5F9EA0</color>
+    <color name="CadetBlue">#5f9ea0</color>
     <color name="MediumAquaMarine">#66CDAA</color>
     <color name="LightSlateGrey">#778899</color>
     <color name="MediumSlateBlue">#7B68EE</color>
@@ -92,5 +92,6 @@
     <color name="Khaki">#F0E68C</color>
     <color name="MediumBlue">#0000cd</color>
     <color name="DarkOliveGreen">#556B2F</color>
+    <color name="CadetBlue2">#785f9ea0</color>
 
 </resources>
